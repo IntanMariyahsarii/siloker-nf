@@ -6,7 +6,7 @@
 
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
-                        <h2>Kelola <em>Loker</em></h2>
+                        <h2 style="font-family: 'Poppins';">Kelola <em style="font-family: 'Poppins';">Loker</em></h2>
                     </div>
                 </div>
 

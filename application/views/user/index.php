@@ -101,7 +101,7 @@
 		<div class="row">
 			<div class="col-lg-5">
 				<div class="section-heading wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
-					<h2 style="font-family: 'Poppins';">Daftar <em>Mitra</em></h2>
+					<h2 style="font-family: 'Poppins';">Daftar <em style="font-family: 'Poppins';">Mitra</em></h2>
 				</div>
 			</div>
 		</div>
@@ -119,8 +119,8 @@
 									<img src="<?= base_url("upload/") . $mitra->logo ?>" alt="" style="width: 200px;">
 									<div class="hover-content">
 										<div class="inner-content">
-											<a href="#">
-												<h4><?= $mitra->nama ?></h4>
+											<a href="<?= base_url("dashboard/detailMitra/") . $mitra->id ?>">
+												<h4 style="font-family: 'Poppins';"><?= $mitra->nama ?></h4>
 											</a>
 										</div>
 									</div>

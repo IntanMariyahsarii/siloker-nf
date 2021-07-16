@@ -25,7 +25,7 @@
 							<div class="row">
                                 <div class="col-md-12 form-group mb-3">
                                     <label for="message" class="col-form-label">Judul Berita</label>
-                                    <input type="text" class="form-control" name="judul" value="<?= $berita->judul ?>">
+                                    <input type="text" class="form-control" name="judul" autocomplete="off" value="<?= $berita->judul ?>">
                                 </div>
                             </div>
 

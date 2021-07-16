@@ -19,7 +19,7 @@
 						<div class="row">
 							<div class="col-md-12 form-group mb-3">
 								<label for="" class="col-form-label">Nama Perusahaan/Organisasi</label>
-								<input type="text" class="form-control" name="nama" placeholder="Nama Perusahaan/Organisasi">
+								<input type="text" class="form-control" name="nama" placeholder="Nama Perusahaan/Organisasi" autocomplete="off">
 							</div>
 						</div>
 
@@ -64,14 +64,14 @@
 						<div class="row">
 							<div class="col-md-12 form-group mb-3">
 								<label for="message" class="col-form-label">Kontak Person</label>
-								<input type="text" class="form-control" name="kontak" placeholder="Kontak Person">
+								<input type="text" class="form-control" name="kontak" placeholder="Kontak Person" autocomplete="off">
 							</div>
 						</div>
 
 						<div class="row">
 							<div class="col-md-12 form-group mb-3">
 								<label for="message" class="col-form-label">No HP/Telepon</label>
-								<input type="text" class="form-control" name="telpon" placeholder="No HP/Telepon">
+								<input type="text" class="form-control" name="telpon" placeholder="No HP/Telepon" autocomplete="off">
 							</div>
 						</div>
 
@@ -85,7 +85,7 @@
 						<div class="row">
 							<div class="col-md-12 form-group mb-3">
 								<label for="message" class="col-form-label">Alamat Web</label>
-								<input type="text" class="form-control" name="alamatWeb" placeholder="Alamat Web">
+								<input type="text" class="form-control" name="alamatWeb" placeholder="Alamat Web" autocomplete="off">
 							</div>
 						</div>
 

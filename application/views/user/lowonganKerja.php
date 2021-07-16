@@ -9,9 +9,7 @@
 					</div>
 				</div>
 
-				<?php $i = 0 ?>
 				<?php foreach ($lowongan as $lowongan) { ?>
-					<?php $i++ ?>
 
 					<div class="col-lg-4">
 						<div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
@@ -31,10 +29,6 @@
 							</div>
 						</div>
 					</div>
-
-					<?php if ($i == 3) {
-						break;
-					} ?>
 
 				<?php } ?>
 

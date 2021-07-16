@@ -166,6 +166,7 @@ class Dashboard extends CI_Controller
         $this->session->set_flashdata('success', 'Data Berhasil ditambahkan');
         redirect('dashboard/formMitra');
     }
+	
 
     public function createLoker()
     {
@@ -345,6 +346,18 @@ class Dashboard extends CI_Controller
 
         $this->load->view('template/admin_template', $data);
     }
+
+	public function detailMitra($mitraId)
+	{
+		$list["mitra"] = $this->db->query("SELECT * FROM mitra WHERE id = $mitraId")->result();
+
+        $data = array(
+            "page" => $this->load(),
+            "content" => $this->load->view('user/detailMitra', $list, true)
+        );
+
+        $this->load->view('template/default_template', $data);
+	}
 
     public function editKelolaMitra($mitraId)
     {

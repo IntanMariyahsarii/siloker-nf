@@ -11,14 +11,12 @@
 
 				<div class="col-md-12 form-group">
 					<form action="<?= base_url("dashboard/formMitra") ?>" method="get">
-						<input type="submit" value="Form Daftar Mitra" class="btn btn-primary rounded-0 py-2 px-4">
+						<input type="submit" value="Jadi Mitra" class="btn btn-primary rounded-0 py-2 px-4" style="font-family: 'Poppins';">
 						<span class="submitting"></span>
 					</form>
 				</div><br><br><br>
 
-				<?php $i = 0 ?>
 				<?php foreach ($mitra as $mitra) { ?>
-					<?php $i++ ?>
 
 					<div class="col-lg-4">
 						<div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
@@ -32,15 +30,12 @@
 									<div class="right-content">
 										<h4><?= character_limiter($mitra->nama, 13) ?></h4>
 										<p><?= $mitra->kontak ?> <br> <?= $mitra->telpon ?> <br> <?= $mitra->email ?> </p>
+										<a href="<?= base_url("dashboard/detailMitra/") . $mitra->id ?>">Lihat Detail</a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-
-					<?php if ($i == 3) {
-						break;
-					} ?>
 
 				<?php } ?>
 

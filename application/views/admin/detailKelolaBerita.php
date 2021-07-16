@@ -19,6 +19,7 @@
                                 </div>
                                 <div class="col-lg-8">
                                     <div class="right-content">
+										<p><?= $berita->judul ?></p><br>
                                         <p><?= $berita->deskripsi ?></p><br>
                                         <p>Tanggal : <?= $berita->tanggal ?></p>
                                     </div>

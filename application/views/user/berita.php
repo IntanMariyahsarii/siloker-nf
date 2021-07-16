@@ -19,6 +19,7 @@
                                 </div>
                                 <div class="col-lg-8">
                                     <div class="right-content">
+										<p><?= $berita->judul ?></p>
                                         <p><?= $berita->deskripsi ?></p><br>
                                         <p>Tanggal : <?= $berita->tanggal ?></p>
 										<a href="<?= base_url("dashboard/detailBerita/") . $berita->id_berita ?>">Lihat Detail</a>
