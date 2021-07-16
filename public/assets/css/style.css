@@ -1738,3 +1738,38 @@ responsive
     padding: 30px;
   }
 }
+.judul-about{
+	margin-top: 4px;
+}
+#icon-dpn{
+	width: 648px;
+	margin-top: 30px;
+}
+#icon-index {
+	margin-top: 45px;
+	width: 724px;
+	margin-left: -61px;
+}
+
+@media only screen and (max-width:800px) {
+	.judul-about{
+		margin-top: 45px;
+	}
+	#icon-dpn{
+		width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -43px;
+	}
+	#icon-index {
+		width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -43px;
+	}
+
+#text-mitra{
+	font-size: 14px;
+    margin-left: -19px;
+}
+}

@@ -1,3 +1,4 @@
+
 <div class="main-banner wow fadeIn">
 	<div id="services" class="our-services section" style="padding-top: 15px;">
 		<div class="container-fluid">
@@ -27,7 +28,7 @@
 									</div>
 								</div>
 								<div class="col-lg-8">
-									<div class="right-content">
+									<div class="right-content" id="text-mitra">
 										<h4><?= character_limiter($mitra->nama, 13) ?></h4>
 										<p><?= $mitra->kontak ?> <br> <?= $mitra->telpon ?> <br> <?= $mitra->email ?> </p>
 										<a href="<?= base_url("dashboard/detailMitra/") . $mitra->id ?>">Lihat Detail</a>

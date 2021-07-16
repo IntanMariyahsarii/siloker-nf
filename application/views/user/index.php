@@ -40,7 +40,7 @@
 					</div>
 					<div class="col-lg-6">
 						<div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-							<img src="<?= base_url("public/assets/images/icon-home.svg") ?>" alt="" id="icon-dpn">
+							<img src="<?= base_url("public/assets/images/icon-home.svg") ?>" alt="" id="icon-index">
 						</div>
 					</div>
 				</div>
@@ -136,11 +136,7 @@
 	</div>
 </div>
 <style>
-	#icon-dpn {
-		margin-top: 45px;
-		width: 724px;
-		margin-left: -61px;
-	}
+
 
 	#font-dpn {
 		font-size: 50px;

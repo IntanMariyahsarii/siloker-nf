@@ -8,7 +8,7 @@
 							<div class="row">
 								<div class="col-lg-12">
 									<div class="info-stat">
-										<h3 style="font-size: 40px; margin-top: 4px; font-family: 'Poppins', sans-serif;">About us</h3>
+										<h3 style="font-size: 40px; font-family: 'Poppins', sans-serif;" class="judul-about">About us</h3>
 									</div>
 									<div class="info-stat">
 									<p style="text-align: justify; font-family: 'Poppins';">SILOKER NF merupakan website pencarian lowongan kerja. SILOKER NF dibangun oleh para mahasiswa Sekolah Tinggi Teknlogi Terpadu Nurul Fikri. SILOKER NF sudah mempunyai mitra yang banyak dan banyak berbagai lowongan kerja.
@@ -37,9 +37,4 @@
 	</div>
 </div>
 
-<style>
-	#icon-dpn{
-		width: 648px;
-    margin-top: 30px;
-	}
-</style>
+
