@@ -22,3 +22,31 @@
 <link rel="stylesheet" href="<?= base_url("public/form/css/style.css") ?>">
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/dataTables.bootstrap4.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+		width: 100%;
+		border: 1px solid #ddd;
+	}
+
+	th,
+	td {
+		text-align: left;
+		padding: 8px;
+	}
+
+	tr:nth-child(even) {
+		background-color: #f2f2f2
+	}
+
+	.disable {
+		display: none;
+	}
+
+	@media only screen and (max-width: 600px) {
+		.disable {
+			display: block;
+		}
+	}
+</style>

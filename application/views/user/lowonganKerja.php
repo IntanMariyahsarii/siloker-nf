@@ -8,16 +8,16 @@
 						<h2>Lowongan <em>Kerja</em></h2>
 					</div>
 				</div>
-
+				
 				<?php foreach ($lowongan as $lowongan) { ?>
 
 					<div class="col-lg-4">
-						<div class="service-item wow bounceInUp" data-wow-duration="1s" data-wow-delay="0.3s">
+						<div class="service-item wow bounceInUp" id="card-loker" data-wow-duration="1s" data-wow-delay="0.3s">
 							<div class="row">
 								<div class="col-lg-4">
-									<div class="icon">
-										<img src="<?= base_url("upload/") . $lowongan->logo ?>" alt="">
-									</div>
+									<!-- <div class="icon" id="icon-loker"> -->
+										<img id="img-loker" src="<?= base_url("upload/") . $lowongan->logo ?>" alt="">
+									<!-- </div> -->
 								</div>
 								<div class="col-lg-8">
 									<div class="right-content">

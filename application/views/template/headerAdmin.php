@@ -13,6 +13,7 @@
 					<li class="scroll-to-section"><a href="<?= base_url('dashboard/kelolaLoker'); ?>">Kelola Lowongan Kerja</a></li>
 					<li class="scroll-to-section"><a href="<?= base_url('dashboard/kelolaMitra'); ?>">Kelola Mitra</a></li>
 					<li class="scroll-to-section"><a href="<?= base_url('dashboard/kelolaBerita'); ?>">Kelola Berita</a></li>
+					<li class="scroll-to-section disable"><a href="<?= base_url('dashboard/logout'); ?>">Logout</a></li>
 					<li class="scroll-to-section"><a href="<?= base_url('dashboard/logout'); ?>">Logout</a></li>
 				</ul>
 				<a class='menu-trigger'>

@@ -16,6 +16,7 @@
 					<li class="scroll-to-section"><a href="<?= base_url('dashboard/daftarMitra'); ?>">Daftar Mitra</a></li>
 					<li class="scroll-to-section"><a href="<?= base_url('dashboard/isiLoker'); ?>">Isi Loker</a></li>
 					<li class="scroll-to-section"><a href="<?= base_url('dashboard/berita'); ?>">Berita</a></li>
+					<li class="scroll-to-section disable"><a href="<?= base_url('dashboard/login'); ?>">Login</a></li>
 					<li class="scroll-to-section"><a href="<?= base_url('dashboard/login'); ?>">Login</a></li>
 				</ul>
 				<a class='menu-trigger'>

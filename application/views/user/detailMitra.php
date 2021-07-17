@@ -19,8 +19,8 @@
                                 </div>
                                 <div class="col-lg-8">
                                     <div class="right-content" style="padding: 69px;">
-                                        <h4 style="font-size: 30px;font-family: 'Poppins';:"><?= character_limiter($mitra->nama, 13) ?></h4>
-                                        <p style="font-size: 16px;"><?= $mitra->kontak ?> <br> <?= $mitra->telpon ?> <br> <?= $mitra->email ?> </p>
+                                        <h4 class="h4-detail" id="detail-mitra"><?= character_limiter($mitra->nama, 13) ?></h4>
+                                        <p class="p-detail" id="detail-mitra"><?= $mitra->kontak ?> <br> <?= $mitra->telpon ?> <br> <?= $mitra->email ?> </p>
                                     </div>
                                 </div>
                             </div>
